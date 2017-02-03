@@ -1,0 +1,29 @@
+{
+  "name": "TwitterBot",
+  "scripts": {
+  },
+  "env": {
+    "ACCESS_TOKEN": {
+      "required": true
+    },
+    "ACCESS_TOKEN_SECRET": {
+      "required": true
+    },
+    "CONSUMER_KEY": {
+      "required": true
+    },
+    "CONSUMER_SECRET": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
